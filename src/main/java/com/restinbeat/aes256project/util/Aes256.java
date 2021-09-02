@@ -16,7 +16,7 @@ public class Aes256 {
 
     public static String algorithm = "AES/CBC/PKCS5Padding";
 
-    private String key = "aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbb";
+    private final String key = "aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbb";
 
     private final String iv = key.substring(0, 16); // 16byte
 
